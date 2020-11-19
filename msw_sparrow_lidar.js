@@ -52,7 +52,7 @@ catch (e) {
         name: 'msw_sparrow_lidar',			// 'lib_sparrow_air',
         target: 'armv6',
         description: "[name] [serial_no] [baudrate]",
-        scripts: './lib_sparrow_led 1 115200',		// './lib_sparrow_air /dev/ttyUSB4 115200',
+        scripts: './lib_sparrow_lidar 1 115200',	// './lib_sparrow_air /dev/ttyUSB4 115200',
 	data: ['DISTANCE'],
         control: ['Control_ONOFF']
     };
